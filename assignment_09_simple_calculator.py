@@ -52,23 +52,22 @@ while True:
     
 
     if operation_of_user == str(1):
-        print(add(first_number, second_number))
+        print("sum:" , add(first_number, second_number))
 
     elif operation_of_user == str(2):
-        print(subtract(first_number, second_number))
+        print("difference:" ,subtract(first_number, second_number))
 
     elif operation_of_user == str(3):
-        print(multiply(first_number,second_number))
+        print("product:", multiply(first_number,second_number))
 
     elif operation_of_user == str(4):
         if second_number == 0:
             print("Math error")
         else:
-            print(divide(first_number,second_number))
+            print("quotient:" ,divide(first_number,second_number))
 
     elif operation_of_user == str(5):
         print(mod(first_number,second_number))
 
     elif operation_of_user == str(6):
         print(exponent(first_number, second_number))
-
